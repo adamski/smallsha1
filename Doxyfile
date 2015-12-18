@@ -1,0 +1,6 @@
+PROJECT_NAME = smallsha1
+INPUT = .git .git/hooks .git/info .git/logs .git/logs/refs .git/logs/refs/heads .git/logs/refs/remotes .git/logs/refs/remotes/origin .git/objects .git/objects/info .git/objects/pack .git/refs .git/refs/heads .git/refs/remotes .git/refs/remotes/origin .git/refs/tags Source Tests
+OUTPUT_DIRECTORY = docs
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+HTML_OUTPUT            = .

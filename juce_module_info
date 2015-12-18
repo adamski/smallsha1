@@ -1,0 +1,45 @@
+{
+  "id": "smallsha1",
+  "name": "smallsha1",
+  "version": "0.0.1",
+  "description": "Add description",
+  "website": "Add URL",
+  "license": "Not Specified",
+  "dependencies": [
+    {
+      "id": "juce_core",
+      "version": "matching"
+    }
+  ],
+  "include": "smallsha1.h",
+  "compile": [
+    {
+      "file": "smallsha1.cpp",
+      "target": "! xcode"
+    },
+    {
+      "file": "smallsha1.mm",
+      "target": "xcode"
+    }
+  ],
+  "browse": [
+    ".git/*",
+    ".git/hooks/*",
+    ".git/info/*",
+    ".git/logs/*",
+    ".git/logs/refs/*",
+    ".git/logs/refs/heads/*",
+    ".git/logs/refs/remotes/*",
+    ".git/logs/refs/remotes/origin/*",
+    ".git/objects/*",
+    ".git/objects/info/*",
+    ".git/objects/pack/*",
+    ".git/refs/*",
+    ".git/refs/heads/*",
+    ".git/refs/remotes/*",
+    ".git/refs/remotes/origin/*",
+    ".git/refs/tags/*",
+    "Source/*",
+    "Tests/*"
+  ]
+}
