@@ -32,7 +32,6 @@ SOFTWARE.
 namespace adamski {
 
 #include "Source/sha1.cpp"
-#include "Tests/main.cpp"
 
 }
 
