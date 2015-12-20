@@ -1,8 +1,8 @@
 {
   "id": "smallsha1",
   "name": "smallsha1",
-  "version": "0.0.1",
-  "description": "Add description",
+  "version": "1.0.0",
+  "description": "Fast SHA1 algorithm with a small memory footprint",
   "website": "Add URL",
   "license": "Not Specified",
   "dependencies": [
@@ -23,22 +23,6 @@
     }
   ],
   "browse": [
-    ".git/*",
-    ".git/hooks/*",
-    ".git/info/*",
-    ".git/logs/*",
-    ".git/logs/refs/*",
-    ".git/logs/refs/heads/*",
-    ".git/logs/refs/remotes/*",
-    ".git/logs/refs/remotes/origin/*",
-    ".git/objects/*",
-    ".git/objects/info/*",
-    ".git/objects/pack/*",
-    ".git/refs/*",
-    ".git/refs/heads/*",
-    ".git/refs/remotes/*",
-    ".git/refs/remotes/origin/*",
-    ".git/refs/tags/*",
     "Source/*",
     "Tests/*"
   ]
